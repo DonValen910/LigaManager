@@ -150,8 +150,8 @@ Páginas Principales
 
 **Librerías Útiles**
 
-@unocss/nuxt - Estilos
-@pinia/nuxt - Estado global
-@vueuse/nuxt - Composables
-vue-chartjs - Gráficos para estadísticas
-@headlessui/vue - Componentes UI
+- <a href="https://unocss.dev/integrations/nuxt">@unocss/nuxt</a> - Estilos
+- <a href="https://pinia.vuejs.org/ssr/nuxt.html">@pinia/nuxt</a> - Estado global
+- <a href="https://nuxt.com/modules/vueuse">@vueuse/nuxt</a> - Composables
+- <a href="https://vue-chartjs.org/guide/">vue-chartjs</a> - Gráficos para estadísticas
+- <a href="https://headlessui.com/v1/vue/menu#installation">@headlessui/vue</a> - Componentes UI
