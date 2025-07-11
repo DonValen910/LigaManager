@@ -1,3 +1,18 @@
 @import '@unocss/reset/tailwind.css';
 
+/* Tipografías personalizadas */
+@font-face {
+  font-family: 'Inter';
+  src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'JetBrains_Mono';
+  src: url(../fonts/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf);
+  font-weight: 100 800;
+  font-display: swap;
+}
+
 /* Estilos globales adicionales aquí */
