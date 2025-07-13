@@ -3,7 +3,7 @@
 /* Tipografías personalizadas */
 @font-face {
   font-family: 'Inter';
-  src: url(../fonts/Inter/Inter-VariableFont_opsz\,wght.ttf);
+  src: url(../fonts/Inter/inter-cyrillic-500-normal.ttf);
   font-weight: 100 900;
   font-display: swap;
 }
@@ -15,4 +15,16 @@
   font-display: swap;
 }
 
+/* Variables */
+:root {
+  --color-gris: #F8FAFC;
+  --color-gris-oscuro: #1E293B;
+  --color-verde: #16A34A;
+  --color-rojo: #DC2626;
+  --color-amarillo: #EAB308;
+}
+
 /* Estilos globales adicionales aquí */
+body {
+  font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+}
