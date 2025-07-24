@@ -1,20 +1,32 @@
 <template>
-  <header class="w-full h-[175px] py-15px px-70px flex items-center justify-between">
-    <figure class="w-200px">
-      <img src="../public/logo_transparente.png" alt="Logo de Liga Manager">
+  <header class="header">
+    <figure class="logo">
+      <img class="sidebar-icon" src="../public/icon/Sidebar.svg" alt="Icono de la barra lateral">
+      <img class="logo-pelota" src="../public/logo_pelota.png" alt="Logo de Liga Manager">
     </figure>
-    <nav>
-      <ul class="flex gap-40px">
-        <li><a class="text-lg" href="#">Equipos</a></li>
-        <li><a class="text-lg" href="#">Jugadores</a></li>
-        <li><a class="text-lg" href="#">Fixtures</a></li>
-        <li><a class="text-lg" href="#">Resultados</a></li>
-        <li><a class="text-lg" href="#">Estadisticas</a></li>
-      </ul>
-    </nav>
+
+    <!-- TODO: Crear barra de navegación -->
   </header>
 </template>
 
 <script lang="ts" setup>
 
 </script>
+
+<style scoped>
+.header {
+  width: 100%;
+  display: flex;
+  padding: 11px 0 11px 20px;
+}
+
+.header .logo {
+  display: flex;
+  gap: 2.5rem;
+}
+
+.header .logo img {
+  height: 68px;
+  width: auto;
+}
+</style>

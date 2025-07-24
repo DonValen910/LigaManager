@@ -1,4 +1,9 @@
-@import '@unocss/reset/tailwind.css';
+/* Reset CSS básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* Tipografías personalizadas */
 @font-face {
@@ -24,7 +29,7 @@
   --color-amarillo: #EAB308;
 }
 
-/* Estilos globales adicionales aquí */
+/* Estilos globales */
 body {
   font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
 }
