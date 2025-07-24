@@ -138,7 +138,6 @@ Páginas Principales
 - **Frontend**
 
   - Nuxt 3 (Vue.js)
-  - UnoCSS para estilos
   - Pinia para gestión de estado
   - VueUse para composables útiles
 
@@ -150,7 +149,6 @@ Páginas Principales
 
 **Librerías Útiles**
 
-- <a href="https://unocss.dev/integrations/nuxt">@unocss/nuxt</a> - Estilos
 - <a href="https://pinia.vuejs.org/ssr/nuxt.html">@pinia/nuxt</a> - Estado global
 - <a href="https://nuxt.com/modules/vueuse">@vueuse/nuxt</a> - Composables
 - <a href="https://vue-chartjs.org/guide/">vue-chartjs</a> - Gráficos para estadísticas
