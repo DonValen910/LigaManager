@@ -18,7 +18,9 @@
       <span class="copyright">
         Hecho con ❤️ y Vue.js | © 2025 Liga Manager | 
         <figure class="github-icon">
-          <img src="../public/github-mark.svg" alt="Icono de GitHub">
+          <a href="https://github.com/DonValen910/LigaManager" target="_blank">
+            <img src="../public/github-mark.svg" alt="Icono de GitHub">
+          </a>
         </figure>
       </span>
     </div>
@@ -98,5 +100,9 @@
 .github-icon img {
   width: 16px;
   height: 16px;
+}
+
+.github-icon img:hover {
+  scale: 1.1;
 }
 </style>
