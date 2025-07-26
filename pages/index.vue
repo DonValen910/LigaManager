@@ -1,22 +1,25 @@
 <template>
-  <div class="home-page">
-    <section class="hero">
-      <h1 class="hero-title">Liga Manager</h1>
-      <p class="hero-subtitle">Gestiona tu liga de fútbol de manera fácil y eficiente</p>
-    </section>
-    
-    <section class="features">
-      <div class="feature">
-        <h3>Equipos</h3>
-        <p>Administra todos los equipos de tu liga</p>
+  <div class="dashboard">
+    <header class="dashboard-header">
+      <h1 class="dashboard-title">Bienvenido a Liga Manager</h1>
+      <p class="dashboard-description">Acá verás un resumen de la liga, próximos partidos y estadísticas destacadas.</p>
+    </header>
+    <section class="dashboard-content">
+      <div class="dashboard-card-column">
+        <article class="dashboard-card">
+          <h2 class="dashboard-card-title">Resumen general de la liga</h2>
+        </article>
+        <article class="dashboard-card">
+          <h2 class="dashboard-card-title">Próximos partidos</h2>
+        </article>
       </div>
-      <div class="feature">
-        <h3>Jugadores</h3>
-        <p>Registra y gestiona información de jugadores</p>
-      </div>
-      <div class="feature">
-        <h3>Fixtures</h3>
-        <p>Programa y organiza los partidos</p>
+      <div class="dashboard-card-column reverse">
+        <article class="dashboard-card">
+          <h2 class="dashboard-card-title">Tabla de posiciones resumidas</h2>
+        </article>
+        <article class="dashboard-card">
+          <h2 class="dashboard-card-title">Estadísticas destacadas</h2>
+        </article>
       </div>
     </section>
   </div>
@@ -27,55 +30,57 @@
 </script>
 
 <style scoped>
-.home-page {
-  padding: 2rem;
-  max-width: 1200px;
-  margin: 0 auto;
+.dashboard {
+  padding: 20px;
+  background-color: rgba(248, 250, 252, 0.95);
+  border-radius: 1rem;
+  margin: 30px 45px;
 }
 
-.hero {
+.dashboard-header {
+  margin-bottom: 20px;
+}
+
+:is(.dashboard-title, .dashboard-description) {
   text-align: center;
-  margin-bottom: 3rem;
 }
 
-.hero-title {
-  font-family: 'Inter', sans-serif;
-  font-size: 3rem;
-  font-weight: bold;
+.dashboard-title {
+  font-size: 2.7rem;
+  margin-bottom: 10px;
+}
+
+.dashboard-description {
+  font-size: 1.3rem;
   color: var(--color-gris-oscuro);
-  margin-bottom: 1rem;
 }
 
-.hero-subtitle {
-  font-size: 1.25rem;
-  color: #666;
-  max-width: 600px;
-  margin: 0 auto;
+.dashboard-content {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
 }
 
-.features {
+.dashboard-card-column {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
+  grid-template-columns: 70% auto;
+  gap: 20px;
 }
 
-.feature {
-  padding: 1.5rem;
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
+.dashboard-card-column.reverse {
+  grid-template-columns: auto 70%;
+}
+
+.dashboard-card {
+  background-color: transparent;
+  border-radius: 0.5rem;
+  outline: 3px solid var(--color-gris-oscuro);
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+}
+
+.dashboard-card-title {
+  font-size: 1.5rem;
   text-align: center;
-  background-color: var(--color-gris);
-}
-
-.feature h3 {
-  font-family: 'Inter', sans-serif;
-  font-weight: 600;
-  color: var(--color-gris-oscuro);
-  margin-bottom: 0.5rem;
-}
-
-.feature p {
-  color: #666;
 }
 </style>

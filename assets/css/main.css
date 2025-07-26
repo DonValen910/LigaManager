@@ -22,6 +22,7 @@
 
 /* Variables */
 :root {
+  --color-negro: #0f0f0f;
   --color-gris: #f8fafc;
   --color-gris-oscuro: #1E293B;
   --color-verde: #16A34A;
@@ -35,13 +36,16 @@ body {
   background: url("/fondo.webp") no-repeat center center fixed;
 }
 
+h1, h2, h3, h4, p, a {
+  color: var(--color-negro);
+}
+
 li {
   list-style: none;
 }
 
 a {
   text-decoration: none;
-  color: var(--color-gris-oscuro);
 }
 
 img {
