@@ -22,7 +22,7 @@
 
 /* Variables */
 :root {
-  --color-gris: #F8FAFC;
+  --color-gris: #f8fafc;
   --color-gris-oscuro: #1E293B;
   --color-verde: #16A34A;
   --color-rojo: #DC2626;
@@ -32,6 +32,7 @@
 /* Estilos globales */
 body {
   font-family: 'Inter', ui-sans-serif, system-ui, sans-serif;
+  background: url("/fondo.webp") no-repeat center center fixed;
 }
 
 li {

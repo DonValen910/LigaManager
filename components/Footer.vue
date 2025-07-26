@@ -36,6 +36,7 @@
   display: flex;
   justify-content: space-between;
   padding: 15px 70px;
+  background: rgba(248, 250, 252, 0.95);
 }
 
 .logo {

@@ -94,6 +94,7 @@ onMounted(() => {
   flex-direction: column;
   padding: 11px 0 11px 20px;
   position: relative;
+  background: rgba(248, 250, 252, 0.95);
 }
 
 .header .logo {
